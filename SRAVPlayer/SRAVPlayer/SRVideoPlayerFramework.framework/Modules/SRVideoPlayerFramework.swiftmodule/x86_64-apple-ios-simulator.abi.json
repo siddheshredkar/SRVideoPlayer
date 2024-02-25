@@ -1,0 +1,1662 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SRVideoPlayerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SRVideoPlayerFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SRVideoPlayerDelegate",
+        "printedName": "SRVideoPlayerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didChangeMuteStatus",
+            "printedName": "didChangeMuteStatus(isMuted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB8DelegateP19didChangeMuteStatus7isMutedySb_tF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB8DelegateP19didChangeMuteStatus7isMutedySb_tF",
+            "moduleName": "SRVideoPlayerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : SRVideoPlayerFramework.SRVideoPlayerDelegate>",
+            "sugared_genericSig": "<Self where Self : SRVideoPlayerFramework.SRVideoPlayerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didChangePlayPauseStatus",
+            "printedName": "didChangePlayPauseStatus(isPlaying:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB8DelegateP24didChangePlayPauseStatus9isPlayingySb_tF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB8DelegateP24didChangePlayPauseStatus9isPlayingySb_tF",
+            "moduleName": "SRVideoPlayerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : SRVideoPlayerFramework.SRVideoPlayerDelegate>",
+            "sugared_genericSig": "<Self where Self : SRVideoPlayerFramework.SRVideoPlayerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22SRVideoPlayerFramework0aB8DelegateP",
+        "mangledName": "$s22SRVideoPlayerFramework0aB8DelegateP",
+        "moduleName": "SRVideoPlayerFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SRVideoPlayerBuilderProtocol",
+        "printedName": "SRVideoPlayerBuilderProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setURLs",
+            "printedName": "setURLs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB15BuilderProtocolP7setURLsyxSay10Foundation3URLVGF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB15BuilderProtocolP7setURLsyxSay10Foundation3URLVGF",
+            "moduleName": "SRVideoPlayerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "sugared_genericSig": "<Self where Self : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFrame",
+            "printedName": "setFrame(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB15BuilderProtocolP8setFrameyxSo6CGRectVF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB15BuilderProtocolP8setFrameyxSo6CGRectVF",
+            "moduleName": "SRVideoPlayerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "sugared_genericSig": "<Self where Self : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPadding",
+            "printedName": "setPadding(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB15BuilderProtocolP10setPaddingyx14CoreFoundation7CGFloatVF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB15BuilderProtocolP10setPaddingyx12CoreGraphics7CGFloatVF",
+            "moduleName": "SRVideoPlayerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "sugared_genericSig": "<Self where Self : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIsMuted",
+            "printedName": "setIsMuted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB15BuilderProtocolP10setIsMutedyxSbF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB15BuilderProtocolP10setIsMutedyxSbF",
+            "moduleName": "SRVideoPlayerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "sugared_genericSig": "<Self where Self : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDelegate",
+            "printedName": "setDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SRVideoPlayerDelegate",
+                "printedName": "SRVideoPlayerFramework.SRVideoPlayerDelegate",
+                "usr": "s:22SRVideoPlayerFramework0aB8DelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB15BuilderProtocolP11setDelegateyxAA0abG0_pF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB15BuilderProtocolP11setDelegateyxAA0abG0_pF",
+            "moduleName": "SRVideoPlayerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "sugared_genericSig": "<Self where Self : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SRVideoPlayer",
+                "printedName": "SRVideoPlayerFramework.SRVideoPlayer",
+                "usr": "c:@M@SRVideoPlayerFramework@objc(cs)SRVideoPlayer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB15BuilderProtocolP5buildAA0aB0CyF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB15BuilderProtocolP5buildAA0aB0CyF",
+            "moduleName": "SRVideoPlayerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "sugared_genericSig": "<Self where Self : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22SRVideoPlayerFramework0aB15BuilderProtocolP",
+        "mangledName": "$s22SRVideoPlayerFramework0aB15BuilderProtocolP",
+        "moduleName": "SRVideoPlayerFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Constants",
+        "printedName": "Constants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "playIcon",
+            "printedName": "playIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22SRVideoPlayerFramework9ConstantsO8playIconSSvpZ",
+            "mangledName": "$s22SRVideoPlayerFramework9ConstantsO8playIconSSvpZ",
+            "moduleName": "SRVideoPlayerFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework9ConstantsO8playIconSSvgZ",
+                "mangledName": "$s22SRVideoPlayerFramework9ConstantsO8playIconSSvgZ",
+                "moduleName": "SRVideoPlayerFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pauseIcon",
+            "printedName": "pauseIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22SRVideoPlayerFramework9ConstantsO9pauseIconSSvpZ",
+            "mangledName": "$s22SRVideoPlayerFramework9ConstantsO9pauseIconSSvpZ",
+            "moduleName": "SRVideoPlayerFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework9ConstantsO9pauseIconSSvgZ",
+                "mangledName": "$s22SRVideoPlayerFramework9ConstantsO9pauseIconSSvgZ",
+                "moduleName": "SRVideoPlayerFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "muteIcon",
+            "printedName": "muteIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22SRVideoPlayerFramework9ConstantsO8muteIconSSvpZ",
+            "mangledName": "$s22SRVideoPlayerFramework9ConstantsO8muteIconSSvpZ",
+            "moduleName": "SRVideoPlayerFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework9ConstantsO8muteIconSSvgZ",
+                "mangledName": "$s22SRVideoPlayerFramework9ConstantsO8muteIconSSvgZ",
+                "moduleName": "SRVideoPlayerFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unmuteIcon",
+            "printedName": "unmuteIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22SRVideoPlayerFramework9ConstantsO10unmuteIconSSvpZ",
+            "mangledName": "$s22SRVideoPlayerFramework9ConstantsO10unmuteIconSSvpZ",
+            "moduleName": "SRVideoPlayerFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework9ConstantsO10unmuteIconSSvgZ",
+                "mangledName": "$s22SRVideoPlayerFramework9ConstantsO10unmuteIconSSvgZ",
+                "moduleName": "SRVideoPlayerFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playPauseButtonSize",
+            "printedName": "playPauseButtonSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22SRVideoPlayerFramework9ConstantsO19playPauseButtonSize14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s22SRVideoPlayerFramework9ConstantsO19playPauseButtonSize12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "SRVideoPlayerFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework9ConstantsO19playPauseButtonSize14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s22SRVideoPlayerFramework9ConstantsO19playPauseButtonSize12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "SRVideoPlayerFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "muteUnmuteButtonSize",
+            "printedName": "muteUnmuteButtonSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22SRVideoPlayerFramework9ConstantsO20muteUnmuteButtonSize14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s22SRVideoPlayerFramework9ConstantsO20muteUnmuteButtonSize12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "SRVideoPlayerFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework9ConstantsO20muteUnmuteButtonSize14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s22SRVideoPlayerFramework9ConstantsO20muteUnmuteButtonSize12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "SRVideoPlayerFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:22SRVideoPlayerFramework9ConstantsO",
+        "mangledName": "$s22SRVideoPlayerFramework9ConstantsO",
+        "moduleName": "SRVideoPlayerFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SRVideoPlayerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SRVideoPlayerFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SRVideoPlayer",
+        "printedName": "SRVideoPlayer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "SRVideoPlayerFramework.SRVideoPlayerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22SRVideoPlayerFramework0aB0C8delegateAA0aB8Delegate_pSgvp",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SRVideoPlayerFramework.SRVideoPlayerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SRVideoPlayerDelegate",
+                        "printedName": "SRVideoPlayerFramework.SRVideoPlayerDelegate",
+                        "usr": "s:22SRVideoPlayerFramework0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C8delegateAA0aB8Delegate_pSgvg",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SRVideoPlayerFramework.SRVideoPlayerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SRVideoPlayerDelegate",
+                        "printedName": "SRVideoPlayerFramework.SRVideoPlayerDelegate",
+                        "usr": "s:22SRVideoPlayerFramework0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C8delegateAA0aB8Delegate_pSgvs",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playPauseButton",
+            "printedName": "playPauseButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22SRVideoPlayerFramework0aB0C15playPauseButtonSo8UIButtonCvp",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C15playPauseButtonSo8UIButtonCvp",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C15playPauseButtonSo8UIButtonCvg",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C15playPauseButtonSo8UIButtonCvg",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C15playPauseButtonSo8UIButtonCvs",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C15playPauseButtonSo8UIButtonCvs",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C15playPauseButtonSo8UIButtonCvM",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C15playPauseButtonSo8UIButtonCvM",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "muteUnmuteButton",
+            "printedName": "muteUnmuteButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22SRVideoPlayerFramework0aB0C16muteUnmuteButtonSo8UIButtonCvp",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C16muteUnmuteButtonSo8UIButtonCvp",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C16muteUnmuteButtonSo8UIButtonCvg",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C16muteUnmuteButtonSo8UIButtonCvg",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C16muteUnmuteButtonSo8UIButtonCvs",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C16muteUnmuteButtonSo8UIButtonCvs",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C16muteUnmuteButtonSo8UIButtonCvM",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C16muteUnmuteButtonSo8UIButtonCvM",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isMuted",
+            "printedName": "isMuted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22SRVideoPlayerFramework0aB0C7isMutedSbvp",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C7isMutedSbvp",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C7isMutedSbvg",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C7isMutedSbvg",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C7isMutedSbvs",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C7isMutedSbvs",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22SRVideoPlayerFramework0aB0C7isMutedSbvM",
+                "mangledName": "$s22SRVideoPlayerFramework0aB0C7isMutedSbvM",
+                "moduleName": "SRVideoPlayerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:padding:isMuted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SRVideoPlayer",
+                "printedName": "SRVideoPlayerFramework.SRVideoPlayer",
+                "usr": "c:@M@SRVideoPlayerFramework@objc(cs)SRVideoPlayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22SRVideoPlayerFramework0aB0C5frame7padding7isMutedACSo6CGRectV_14CoreFoundation7CGFloatVSbtcfc",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C5frame7padding7isMutedACSo6CGRectV_12CoreGraphics7CGFloatVSbtcfc",
+            "moduleName": "SRVideoPlayerFramework",
+            "declAttributes": [
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SRVideoPlayerFramework.SRVideoPlayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SRVideoPlayer",
+                    "printedName": "SRVideoPlayerFramework.SRVideoPlayer",
+                    "usr": "c:@M@SRVideoPlayerFramework@objc(cs)SRVideoPlayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SRVideoPlayerFramework@objc(cs)SRVideoPlayer(im)initWithCoder:",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SRVideoPlayerFramework",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpConstraints",
+            "printedName": "setUpConstraints()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB0C16setUpConstraintsyyF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C16setUpConstraintsyyF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadVideo",
+            "printedName": "loadVideo(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB0C9loadVideo4withy10Foundation3URLV_tF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C9loadVideo4withy10Foundation3URLV_tF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadVideos",
+            "printedName": "loadVideos(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB0C10loadVideos4withySay10Foundation3URLVG_tF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C10loadVideos4withySay10Foundation3URLVG_tF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playVideo",
+            "printedName": "playVideo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB0C9playVideoyyF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C9playVideoyyF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseVideo",
+            "printedName": "pauseVideo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB0C10pauseVideoyyF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C10pauseVideoyyF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTapMuteUnmuteButton",
+            "printedName": "onTapMuteUnmuteButton(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SRVideoPlayerFramework@objc(cs)SRVideoPlayer(im)onTapMuteUnmuteButton:",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C21onTapMuteUnmuteButtonyySo8UIButtonCF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SRVideoPlayer",
+                "printedName": "SRVideoPlayerFramework.SRVideoPlayer",
+                "usr": "c:@M@SRVideoPlayerFramework@objc(cs)SRVideoPlayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SRVideoPlayerFramework@objc(cs)SRVideoPlayer(im)initWithFrame:",
+            "mangledName": "$s22SRVideoPlayerFramework0aB0C5frameACSo6CGRectV_tcfc",
+            "moduleName": "SRVideoPlayerFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SRVideoPlayerFramework@objc(cs)SRVideoPlayer",
+        "mangledName": "$s22SRVideoPlayerFramework0aB0C",
+        "moduleName": "SRVideoPlayerFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SRVideoPlayerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SRVideoPlayerBuilder",
+        "printedName": "SRVideoPlayerBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SRVideoPlayerBuilder",
+                "printedName": "SRVideoPlayerFramework.SRVideoPlayerBuilder",
+                "usr": "s:22SRVideoPlayerFramework0aB7BuilderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22SRVideoPlayerFramework0aB7BuilderCACycfc",
+            "mangledName": "$s22SRVideoPlayerFramework0aB7BuilderCACycfc",
+            "moduleName": "SRVideoPlayerFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setURLs",
+            "printedName": "setURLs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB7BuilderC7setURLsyACXDSay10Foundation3URLVGF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB7BuilderC7setURLsyACXDSay10Foundation3URLVGF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIsMuted",
+            "printedName": "setIsMuted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB7BuilderC10setIsMutedyACXDSbF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB7BuilderC10setIsMutedyACXDSbF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFrame",
+            "printedName": "setFrame(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB7BuilderC8setFrameyACXDSo6CGRectVF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB7BuilderC8setFrameyACXDSo6CGRectVF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPadding",
+            "printedName": "setPadding(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB7BuilderC10setPaddingyACXD14CoreFoundation7CGFloatVF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB7BuilderC10setPaddingyACXD12CoreGraphics7CGFloatVF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDelegate",
+            "printedName": "setDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SRVideoPlayerDelegate",
+                "printedName": "SRVideoPlayerFramework.SRVideoPlayerDelegate",
+                "usr": "s:22SRVideoPlayerFramework0aB8DelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB7BuilderC11setDelegateyACXDAA0abF0_pF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB7BuilderC11setDelegateyACXDAA0abF0_pF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SRVideoPlayer",
+                "printedName": "SRVideoPlayerFramework.SRVideoPlayer",
+                "usr": "c:@M@SRVideoPlayerFramework@objc(cs)SRVideoPlayer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22SRVideoPlayerFramework0aB7BuilderC5buildAA0aB0CyF",
+            "mangledName": "$s22SRVideoPlayerFramework0aB7BuilderC5buildAA0aB0CyF",
+            "moduleName": "SRVideoPlayerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22SRVideoPlayerFramework0aB7BuilderC",
+        "mangledName": "$s22SRVideoPlayerFramework0aB7BuilderC",
+        "moduleName": "SRVideoPlayerFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SRVideoPlayerBuilderProtocol",
+            "printedName": "SRVideoPlayerBuilderProtocol",
+            "usr": "s:22SRVideoPlayerFramework0aB15BuilderProtocolP",
+            "mangledName": "$s22SRVideoPlayerFramework0aB15BuilderProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 11,
+      "value": "\"play.fill\""
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 12,
+      "value": "\"pause.fill\""
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 801,
+      "length": 20,
+      "value": "\"speaker.slash.fill\""
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 850,
+      "length": 21,
+      "value": "\"speaker.wave.3.fill\""
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 918,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 968,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1316,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1782,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2188,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2254,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 13,
+      "value": "\"SRVideoPlayerFramework.SRVideoPlayer\""
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayerBuilder.swift",
+      "kind": "Array",
+      "offset": 276,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayerBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 352,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/siddeshredkar\/Desktop\/SRVideoPlayerFramework\/SRVideoPlayerFramework\/SRVideoPlayerBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 387,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

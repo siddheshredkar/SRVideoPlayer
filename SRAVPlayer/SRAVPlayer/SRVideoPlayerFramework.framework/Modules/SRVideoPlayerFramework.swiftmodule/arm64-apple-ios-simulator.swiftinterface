@@ -1,0 +1,47 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SRVideoPlayerFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Foundation
+@_exported import SRVideoPlayerFramework
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol SRVideoPlayerDelegate : AnyObject {
+  func didChangeMuteStatus(isMuted: Swift.Bool)
+  func didChangePlayPauseStatus(isPlaying: Swift.Bool)
+}
+public protocol SRVideoPlayerBuilderProtocol {
+  func setURLs(_ urls: [Foundation.URL]) -> Self
+  func setFrame(_ frame: CoreFoundation.CGRect) -> Self
+  func setPadding(_ padding: CoreFoundation.CGFloat) -> Self
+  func setIsMuted(_ isMuted: Swift.Bool) -> Self
+  func setDelegate(_ delegate: any SRVideoPlayerFramework.SRVideoPlayerDelegate) -> Self
+  func build() -> SRVideoPlayerFramework.SRVideoPlayer
+}
+public enum Constants {
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class SRVideoPlayer : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var isMuted: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public func loadVideo(with url: Foundation.URL)
+  @_Concurrency.MainActor(unsafe) public func loadVideos(with urls: [Foundation.URL])
+  @_Concurrency.MainActor(unsafe) public func playVideo()
+  @_Concurrency.MainActor(unsafe) public func pauseVideo()
+  @objc deinit
+}
+public class SRVideoPlayerBuilder : SRVideoPlayerFramework.SRVideoPlayerBuilderProtocol {
+  public init()
+  public func setURLs(_ urls: [Foundation.URL]) -> Self
+  public func setIsMuted(_ isMuted: Swift.Bool) -> Self
+  public func setFrame(_ frame: CoreFoundation.CGRect) -> Self
+  public func setPadding(_ padding: CoreFoundation.CGFloat) -> Self
+  public func setDelegate(_ delegate: any SRVideoPlayerFramework.SRVideoPlayerDelegate) -> Self
+  public func build() -> SRVideoPlayerFramework.SRVideoPlayer
+  @objc deinit
+}

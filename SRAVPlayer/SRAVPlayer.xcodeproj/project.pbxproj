@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7538FF2B8A4A600052FCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7538FE2B8A4A600052FCDD /* AppDelegate.swift */; };
+		EE7539012B8A4A600052FCDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7539002B8A4A600052FCDD /* SceneDelegate.swift */; };
+		EE7539032B8A4A600052FCDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7539022B8A4A600052FCDD /* ViewController.swift */; };
+		EE7539062B8A4A600052FCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7539042B8A4A600052FCDD /* Main.storyboard */; };
+		EE7539082B8A4A620052FCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7539072B8A4A620052FCDD /* Assets.xcassets */; };
+		EE75390B2B8A4A620052FCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7539092B8A4A620052FCDD /* LaunchScreen.storyboard */; };
+		EE7539222B8A4A620052FCDD /* SRAVPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7539212B8A4A620052FCDD /* SRAVPlayerUITestsLaunchTests.swift */; };
+		EE753A2E2B8B38AE0052FCDD /* SRVideoPlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE753A2C2B8B37B00052FCDD /* SRVideoPlayerFramework.framework */; };
+		EE753A2F2B8B38AE0052FCDD /* SRVideoPlayerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE753A2C2B8B37B00052FCDD /* SRVideoPlayerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7539122B8A4A620052FCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7538F32B8A4A600052FCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7538FA2B8A4A600052FCDD;
+			remoteInfo = SRAVPlayer;
+		};
+		EE75391C2B8A4A620052FCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7538F32B8A4A600052FCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7538FA2B8A4A600052FCDD;
+			remoteInfo = SRAVPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE753A1B2B8B351D0052FCDD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EE753A2F2B8B38AE0052FCDD /* SRVideoPlayerFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE7538FB2B8A4A600052FCDD /* SRAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7538FE2B8A4A600052FCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE7539002B8A4A600052FCDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE7539022B8A4A600052FCDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE7539052B8A4A600052FCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7539072B8A4A620052FCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE75390A2B8A4A620052FCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE75390C2B8A4A620052FCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7539112B8A4A620052FCDD /* SRAVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRAVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE75391B2B8A4A620052FCDD /* SRAVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRAVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7539212B8A4A620052FCDD /* SRAVPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRAVPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE753A2C2B8B37B00052FCDD /* SRVideoPlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SRVideoPlayerFramework.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7538F82B8A4A600052FCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE753A2E2B8B38AE0052FCDD /* SRVideoPlayerFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE75390E2B8A4A620052FCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7539182B8A4A620052FCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7538F22B8A4A600052FCDD = {
+			isa = PBXGroup;
+			children = (
+				EE7538FD2B8A4A600052FCDD /* SRAVPlayer */,
+				EE7539142B8A4A620052FCDD /* SRAVPlayerTests */,
+				EE75391E2B8A4A620052FCDD /* SRAVPlayerUITests */,
+				EE7538FC2B8A4A600052FCDD /* Products */,
+				EE7539E42B8B284E0052FCDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7538FC2B8A4A600052FCDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7538FB2B8A4A600052FCDD /* SRAVPlayer.app */,
+				EE7539112B8A4A620052FCDD /* SRAVPlayerTests.xctest */,
+				EE75391B2B8A4A620052FCDD /* SRAVPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7538FD2B8A4A600052FCDD /* SRAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EE753A2C2B8B37B00052FCDD /* SRVideoPlayerFramework.framework */,
+				EE7538FE2B8A4A600052FCDD /* AppDelegate.swift */,
+				EE7539002B8A4A600052FCDD /* SceneDelegate.swift */,
+				EE7539022B8A4A600052FCDD /* ViewController.swift */,
+				EE7539042B8A4A600052FCDD /* Main.storyboard */,
+				EE7539072B8A4A620052FCDD /* Assets.xcassets */,
+				EE7539092B8A4A620052FCDD /* LaunchScreen.storyboard */,
+				EE75390C2B8A4A620052FCDD /* Info.plist */,
+			);
+			path = SRAVPlayer;
+			sourceTree = "<group>";
+		};
+		EE7539142B8A4A620052FCDD /* SRAVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SRAVPlayerTests;
+			sourceTree = "<group>";
+		};
+		EE75391E2B8A4A620052FCDD /* SRAVPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7539212B8A4A620052FCDD /* SRAVPlayerUITestsLaunchTests.swift */,
+			);
+			path = SRAVPlayerUITests;
+			sourceTree = "<group>";
+		};
+		EE7539E42B8B284E0052FCDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7538FA2B8A4A600052FCDD /* SRAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7539252B8A4A620052FCDD /* Build configuration list for PBXNativeTarget "SRAVPlayer" */;
+			buildPhases = (
+				EE7538F72B8A4A600052FCDD /* Sources */,
+				EE7538F82B8A4A600052FCDD /* Frameworks */,
+				EE7538F92B8A4A600052FCDD /* Resources */,
+				EE753A1B2B8B351D0052FCDD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRAVPlayer;
+			productName = SRAVPlayer;
+			productReference = EE7538FB2B8A4A600052FCDD /* SRAVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7539102B8A4A620052FCDD /* SRAVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7539282B8A4A620052FCDD /* Build configuration list for PBXNativeTarget "SRAVPlayerTests" */;
+			buildPhases = (
+				EE75390D2B8A4A620052FCDD /* Sources */,
+				EE75390E2B8A4A620052FCDD /* Frameworks */,
+				EE75390F2B8A4A620052FCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7539132B8A4A620052FCDD /* PBXTargetDependency */,
+			);
+			name = SRAVPlayerTests;
+			productName = SRAVPlayerTests;
+			productReference = EE7539112B8A4A620052FCDD /* SRAVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE75391A2B8A4A620052FCDD /* SRAVPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE75392B2B8A4A620052FCDD /* Build configuration list for PBXNativeTarget "SRAVPlayerUITests" */;
+			buildPhases = (
+				EE7539172B8A4A620052FCDD /* Sources */,
+				EE7539182B8A4A620052FCDD /* Frameworks */,
+				EE7539192B8A4A620052FCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE75391D2B8A4A620052FCDD /* PBXTargetDependency */,
+			);
+			name = SRAVPlayerUITests;
+			productName = SRAVPlayerUITests;
+			productReference = EE75391B2B8A4A620052FCDD /* SRAVPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7538F32B8A4A600052FCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EE7538FA2B8A4A600052FCDD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EE7539102B8A4A620052FCDD = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EE7538FA2B8A4A600052FCDD;
+					};
+					EE75391A2B8A4A620052FCDD = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EE7538FA2B8A4A600052FCDD;
+					};
+				};
+			};
+			buildConfigurationList = EE7538F62B8A4A600052FCDD /* Build configuration list for PBXProject "SRAVPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7538F22B8A4A600052FCDD;
+			productRefGroup = EE7538FC2B8A4A600052FCDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7538FA2B8A4A600052FCDD /* SRAVPlayer */,
+				EE7539102B8A4A620052FCDD /* SRAVPlayerTests */,
+				EE75391A2B8A4A620052FCDD /* SRAVPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7538F92B8A4A600052FCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE75390B2B8A4A620052FCDD /* LaunchScreen.storyboard in Resources */,
+				EE7539082B8A4A620052FCDD /* Assets.xcassets in Resources */,
+				EE7539062B8A4A600052FCDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE75390F2B8A4A620052FCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7539192B8A4A620052FCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7538F72B8A4A600052FCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7539032B8A4A600052FCDD /* ViewController.swift in Sources */,
+				EE7538FF2B8A4A600052FCDD /* AppDelegate.swift in Sources */,
+				EE7539012B8A4A600052FCDD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE75390D2B8A4A620052FCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7539172B8A4A620052FCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7539222B8A4A620052FCDD /* SRAVPlayerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7539132B8A4A620052FCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7538FA2B8A4A600052FCDD /* SRAVPlayer */;
+			targetProxy = EE7539122B8A4A620052FCDD /* PBXContainerItemProxy */;
+		};
+		EE75391D2B8A4A620052FCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7538FA2B8A4A600052FCDD /* SRAVPlayer */;
+			targetProxy = EE75391C2B8A4A620052FCDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE7539042B8A4A600052FCDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7539052B8A4A600052FCDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE7539092B8A4A620052FCDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE75390A2B8A4A620052FCDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7539232B8A4A620052FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE7539242B8A4A620052FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7539262B8A4A620052FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YA9BB57UP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SRAVPlayer",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SRAVPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trndng.SRAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE7539272B8A4A620052FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YA9BB57UP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SRAVPlayer",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SRAVPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trndng.SRAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE7539292B8A4A620052FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YA9BB57UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trndng.SRAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRAVPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SRAVPlayer";
+			};
+			name = Debug;
+		};
+		EE75392A2B8A4A620052FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YA9BB57UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trndng.SRAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRAVPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SRAVPlayer";
+			};
+			name = Release;
+		};
+		EE75392C2B8A4A620052FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YA9BB57UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trndng.SRAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SRAVPlayer;
+			};
+			name = Debug;
+		};
+		EE75392D2B8A4A620052FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YA9BB57UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trndng.SRAVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SRAVPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7538F62B8A4A600052FCDD /* Build configuration list for PBXProject "SRAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7539232B8A4A620052FCDD /* Debug */,
+				EE7539242B8A4A620052FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7539252B8A4A620052FCDD /* Build configuration list for PBXNativeTarget "SRAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7539262B8A4A620052FCDD /* Debug */,
+				EE7539272B8A4A620052FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7539282B8A4A620052FCDD /* Build configuration list for PBXNativeTarget "SRAVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7539292B8A4A620052FCDD /* Debug */,
+				EE75392A2B8A4A620052FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE75392B2B8A4A620052FCDD /* Build configuration list for PBXNativeTarget "SRAVPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE75392C2B8A4A620052FCDD /* Debug */,
+				EE75392D2B8A4A620052FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7538F32B8A4A600052FCDD /* Project object */;
+}

@@ -1,0 +1,11 @@
+framework module SRVideoPlayerFramework {
+  umbrella header "SRVideoPlayerFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module SRVideoPlayerFramework.Swift {
+  header "SRVideoPlayerFramework-Swift.h"
+  requires objc
+}
