@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7539C52B8B24CB0052FCDD /* SRVideoPlayerFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = EE7539C42B8B24CB0052FCDD /* SRVideoPlayerFramework.docc */; };
+		EE7539D12B8B24CC0052FCDD /* SRVideoPlayerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7539C32B8B24CB0052FCDD /* SRVideoPlayerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE7539DC2B8B268A0052FCDD /* SRVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7539DA2B8B268A0052FCDD /* SRVideoPlayer.swift */; };
+		EE7539DD2B8B268A0052FCDD /* SRVideoPlayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7539DB2B8B268A0052FCDD /* SRVideoPlayerBuilder.swift */; };
+		EE7539DF2B8B26B80052FCDD /* SRVideoPlayerFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7539DE2B8B26B80052FCDD /* SRVideoPlayerFrameworkTests.swift */; };
+		EE753A082B8B33540052FCDD /* SRVideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE753A072B8B33540052FCDD /* SRVideoPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7539CC2B8B24CC0052FCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7539B72B8B24CB0052FCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7539BF2B8B24CB0052FCDD;
+			remoteInfo = SRVideoPlayerFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE7539C32B8B24CB0052FCDD /* SRVideoPlayerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRVideoPlayerFramework.h; sourceTree = "<group>"; };
+		EE7539C42B8B24CB0052FCDD /* SRVideoPlayerFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SRVideoPlayerFramework.docc; sourceTree = "<group>"; };
+		EE7539CA2B8B24CC0052FCDD /* SRVideoPlayerFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SRVideoPlayerFrameworkTests.xctest; path = "/Users/siddeshredkar/Desktop/SRVideoPlayerFramework/build/Debug-iphoneos/SRVideoPlayerFrameworkTests.xctest"; sourceTree = "<absolute>"; };
+		EE7539DA2B8B268A0052FCDD /* SRVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRVideoPlayer.swift; sourceTree = "<group>"; };
+		EE7539DB2B8B268A0052FCDD /* SRVideoPlayerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRVideoPlayerBuilder.swift; sourceTree = "<group>"; };
+		EE7539DE2B8B26B80052FCDD /* SRVideoPlayerFrameworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRVideoPlayerFrameworkTests.swift; path = ../../../.Trash/SRVideoPlayerFramework/SRVideoPlayerFrameworkTests/SRVideoPlayerFrameworkTests.swift; sourceTree = "<group>"; };
+		EE7539EC2B8B2DE40052FCDD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		EE753A072B8B33540052FCDD /* SRVideoPlayerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRVideoPlayerUITests.swift; sourceTree = "<group>"; };
+		EE753A142B8B34F70052FCDD /* SRVideoPlayerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRVideoPlayerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7539BD2B8B24CB0052FCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7539C72B8B24CC0052FCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7539B62B8B24CB0052FCDD = {
+			isa = PBXGroup;
+			children = (
+				EE7539C22B8B24CB0052FCDD /* SRVideoPlayerFramework */,
+				EE7539CE2B8B24CC0052FCDD /* SRVideoPlayerFrameworkTests */,
+				EE7539EB2B8B2DE40052FCDD /* Frameworks */,
+				EE753A142B8B34F70052FCDD /* SRVideoPlayerFramework.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7539C22B8B24CB0052FCDD /* SRVideoPlayerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				EE7539DA2B8B268A0052FCDD /* SRVideoPlayer.swift */,
+				EE7539DB2B8B268A0052FCDD /* SRVideoPlayerBuilder.swift */,
+				EE7539C32B8B24CB0052FCDD /* SRVideoPlayerFramework.h */,
+				EE7539C42B8B24CB0052FCDD /* SRVideoPlayerFramework.docc */,
+			);
+			path = SRVideoPlayerFramework;
+			sourceTree = "<group>";
+		};
+		EE7539CE2B8B24CC0052FCDD /* SRVideoPlayerFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7539DE2B8B26B80052FCDD /* SRVideoPlayerFrameworkTests.swift */,
+				EE753A072B8B33540052FCDD /* SRVideoPlayerUITests.swift */,
+			);
+			path = SRVideoPlayerFrameworkTests;
+			sourceTree = "<group>";
+		};
+		EE7539EB2B8B2DE40052FCDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE7539EC2B8B2DE40052FCDD /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EE7539BB2B8B24CB0052FCDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7539D12B8B24CC0052FCDD /* SRVideoPlayerFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EE7539BF2B8B24CB0052FCDD /* SRVideoPlayerFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7539D42B8B24CC0052FCDD /* Build configuration list for PBXNativeTarget "SRVideoPlayerFramework" */;
+			buildPhases = (
+				EE7539BB2B8B24CB0052FCDD /* Headers */,
+				EE7539BC2B8B24CB0052FCDD /* Sources */,
+				EE7539BD2B8B24CB0052FCDD /* Frameworks */,
+				EE7539BE2B8B24CB0052FCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRVideoPlayerFramework;
+			productName = SRVideoPlayerFramework;
+			productReference = EE753A142B8B34F70052FCDD /* SRVideoPlayerFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE7539C92B8B24CC0052FCDD /* SRVideoPlayerFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7539D72B8B24CC0052FCDD /* Build configuration list for PBXNativeTarget "SRVideoPlayerFrameworkTests" */;
+			buildPhases = (
+				EE7539C62B8B24CC0052FCDD /* Sources */,
+				EE7539C72B8B24CC0052FCDD /* Frameworks */,
+				EE7539C82B8B24CC0052FCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7539CD2B8B24CC0052FCDD /* PBXTargetDependency */,
+			);
+			name = SRVideoPlayerFrameworkTests;
+			productName = SRVideoPlayerFrameworkTests;
+			productReference = EE7539CA2B8B24CC0052FCDD /* SRVideoPlayerFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7539B72B8B24CB0052FCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EE7539BF2B8B24CB0052FCDD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EE7539C92B8B24CC0052FCDD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = EE7539BA2B8B24CB0052FCDD /* Build configuration list for PBXProject "SRVideoPlayerFramework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7539B62B8B24CB0052FCDD;
+			productRefGroup = EE7539B62B8B24CB0052FCDD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7539BF2B8B24CB0052FCDD /* SRVideoPlayerFramework */,
+				EE7539C92B8B24CC0052FCDD /* SRVideoPlayerFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7539BE2B8B24CB0052FCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7539C82B8B24CC0052FCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7539BC2B8B24CB0052FCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7539C52B8B24CB0052FCDD /* SRVideoPlayerFramework.docc in Sources */,
+				EE7539DC2B8B268A0052FCDD /* SRVideoPlayer.swift in Sources */,
+				EE7539DD2B8B268A0052FCDD /* SRVideoPlayerBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7539C62B8B24CC0052FCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7539DF2B8B26B80052FCDD /* SRVideoPlayerFrameworkTests.swift in Sources */,
+				EE753A082B8B33540052FCDD /* SRVideoPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7539CD2B8B24CC0052FCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7539BF2B8B24CB0052FCDD /* SRVideoPlayerFramework */;
+			targetProxy = EE7539CC2B8B24CC0052FCDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE7539D22B8B24CC0052FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE7539D32B8B24CC0052FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE7539D52B8B24CC0052FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6YA9BB57UP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = trndng.SRVideoPlayerFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE7539D62B8B24CC0052FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6YA9BB57UP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = trndng.SRVideoPlayerFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE7539D82B8B24CC0052FCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YA9BB57UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trndng.SRVideoPlayerFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE7539D92B8B24CC0052FCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YA9BB57UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trndng.SRVideoPlayerFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7539BA2B8B24CB0052FCDD /* Build configuration list for PBXProject "SRVideoPlayerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7539D22B8B24CC0052FCDD /* Debug */,
+				EE7539D32B8B24CC0052FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7539D42B8B24CC0052FCDD /* Build configuration list for PBXNativeTarget "SRVideoPlayerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7539D52B8B24CC0052FCDD /* Debug */,
+				EE7539D62B8B24CC0052FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7539D72B8B24CC0052FCDD /* Build configuration list for PBXNativeTarget "SRVideoPlayerFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7539D82B8B24CC0052FCDD /* Debug */,
+				EE7539D92B8B24CC0052FCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7539B72B8B24CB0052FCDD /* Project object */;
+}
