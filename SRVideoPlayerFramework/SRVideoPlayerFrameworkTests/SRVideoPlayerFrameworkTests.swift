@@ -72,7 +72,7 @@ class SRVideoPlayerFrameworkTests: XCTestCase {
     }
 }
 
-extension SRAVPlayerTests: SRVideoPlayerDelegate {
+extension SRVideoPlayerFrameworkTests: SRVideoPlayerDelegate {
     func didChangeMuteStatus(isMuted: Bool) {
         XCTAssertTrue(isMuted, "Video player should be muted after calling onTapMuteUnmuteButton()")
         expectation.fulfill()
